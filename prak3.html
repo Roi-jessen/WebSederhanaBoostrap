@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Sederhana Saya dengan Bootstrap</title>
+
+    <!-- Tautkan file CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Web Sederhana saya dengan Bootstrap</h1>
+
+        <!-- Grid Basic -->
+        <div class="row">
+            <div class="col-md-6">
+                <p>Ini adalah contoh teks dalam grid kolom pertama.</p>
+            </div>
+            <div class="col-md-6">
+                <p>Ini adalah contoh teks dalam grid kolom kedua.</p>
+            </div>
+        </div>
+
+        <!-- Typography -->
+        <h2 class="mt-4">Typography</h2>
+        <p class="lead">Ini adalah teks lead. Lorem ipsum dolor sit amet.</p>
+        <p>Ini adalah teks biasa. Lorem ipsum dolor sit amet.</p>
+
+        <!-- Colors -->
+        <h2 class="mt-4">Colors</h2>
+        <p class="text-primary">Teks dalam warna primer.</p>
+        <p class="text-danger">Teks dalam warna bahaya.</p>
+
+        <!-- Tables -->
+        <h2 class="mt-4">Tables</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>Usia</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Roi</td>
+                    <td>21</td>
+                </tr>
+                <tr>
+                    <td>Rose</td>
+                    <td>25</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Images -->
+        <h2 class="mt-4">Images</h2>
+        <img src="gambar.jpg" alt="Gambar Contoh" class="img-fluid">
+
+        <!-- Jumbotron -->
+        <div class="jumbotron mt-4">
+            <h2 class="display-4">Jumbotron</h2>
+            <p class="lead">Ini adalah jumbotron dengan teks utama dan deskripsi.</p>
+        </div>
+
+        <!-- Alerts -->
+        <div class="alert alert-success mt-4" role="alert">
+            Ini adalah pesan alert kesuksesan.
+        </div>
+
+        <!-- Buttons -->
+        <h2 class="mt-4">Buttons</h2>
+        <button class="btn btn-primary">Tombol Primer</button>
+        <button class="btn btn-secondary">Tombol Sekunder</button>
+
+        <!-- Badges -->
+        <h2 class="mt-4">Badges</h2>
+        <span class="badge bg-primary">Badge Primer</span>
+        <span class="badge bg-secondary">Badge Sekunder</span>
+
+        <!-- Progress Bars -->
+        <h2 class="mt-4">Progress Bars</h2>
+        <div class="progress">
+            <div class="progress-bar" style="width: 70%;">70%</div>
+        </div>
+
+        <!-- Spinners -->
+        <h2 class="mt-4">Spinners</h2>
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+
+        <!-- Pagination -->
+        <h2 class="mt-4">Pagination</h2>
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Sebelumnya</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Selanjutnya</a></li>
+        </ul>
+    </div>
+
+    <!-- Tautkan file JavaScript Bootstrap (Opsional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.2/dist/js/bootstrap.min.js"></script>
+
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+
+</body>
+</html>
